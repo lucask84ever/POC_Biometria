@@ -67,8 +67,8 @@
 			isa = PBXGroup;
 			children = (
 				F341CF4E283BF8B1000249AE /* App setup */,
-				F341CF4C283BF894000249AE /* Default Delegates */,
 				F341CF3C283BD677000249AE /* Assets.xcassets */,
+				F341CF4C283BF894000249AE /* Default Delegates */,
 				F341CF4B283BF862000249AE /* Source */,
 			);
 			path = POC_Biometria;
@@ -93,19 +93,19 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
-		F341CF4A283BF84D000249AE /* Protocol */ = {
+		F341CF4A283BF84D000249AE /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
 				F341CF4F283BF93F000249AE /* DesignProtocol.swift */,
 			);
-			path = Protocol;
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 		F341CF4B283BF862000249AE /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				F341CF34283BD676000249AE /* Coordinators */,
-				F341CF4A283BF84D000249AE /* Protocol */,
+				F341CF4A283BF84D000249AE /* Protocols */,
 				F341CF39283BD676000249AE /* ViewControllers */,
 			);
 			name = Source;
@@ -362,6 +362,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,6 +391,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

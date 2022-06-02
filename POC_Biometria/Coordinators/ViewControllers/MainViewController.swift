@@ -38,7 +38,7 @@ extension MainViewController: DesignProtocol {
         buttonLogin.snp.makeConstraints { [unowned self] make in
             make.width.equalToSuperview().offset(-40)
             make.height.equalTo(52)
-            make.centerY.equalTo(self.view.snp.bottom).offset(-52)
+            make.bottom.equalTo(self.view.snp_bottomMargin).offset(-20)
             make.centerX.equalToSuperview()
         }
     }
@@ -61,7 +61,9 @@ extension MainViewController {
                     if success {
                         self?.coordinator?.showAlertLogged()
                     } else {
-                        print("DEU RUIM")
+                        if let error = error {
+                            print(error)
+                        }
                     }
                 }
             }
